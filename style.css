@@ -1,0 +1,301 @@
+/*footer*/
+#footer {
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+}
+
+.container1 .kiri {
+    width: 80%;
+    margin: 0
+}
+
+.container1 .kiri p {
+    margin-left: 20px;
+}
+
+.container1 .kanan {
+    width: 20%;
+}
+
+.container1 .kanan p {
+    margin-left: 20px;
+}
+
+.container1 .img_sosmed {
+    width: 50px;
+    height: 30px;
+    margin-right: 16px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.container1 .logo {
+    flex-direction: row;
+}
+
+
+.container2 p {
+    margin-left: 20px;
+}
+
+.container2 .logo {
+    flex-direction: row;
+}
+
+.container2 .img_sosmed {
+    width: 50px;
+    height: 30px;
+    margin-right: 16px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.container3 {
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.container3 .kiri {
+    display: flex;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.container3 .kiri .img_1 {
+    width: 20%;
+}
+
+.container3 .kiri p {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.container3 .kanan {
+    display: flex;
+    width: 30%;
+}
+
+.container3 .kanan p {
+    margin-top: 25px;
+}
+
+.container3 .logo {
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.container3 .img_sosmed {
+    width: 33px;
+    height: 33px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 90%
+}
+
+.container4 {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container4 .class1 {
+    width: 30%;
+}
+
+.container4 .class1 .box1 {
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 70%;
+    height: 30px;
+}
+
+.container4 .class1 .box2 {
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 70%;
+    height: 30px;
+}
+
+.container4 .class1 .box3 {
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 70%;
+    height: 30px;
+}
+
+.container4 .class1 .box4 {
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 70%;
+    height: 30px;
+}
+
+.container4 .class1 .box5 {
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 70%;
+    height: 30px;
+}
+
+.container4 .class1 .box6 {
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 70%;
+    height: 30px;
+}
+
+.container4 .kt_link {
+    color: black;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.container4 .kt_link p {
+    text-align: center;
+    margin-top: 6px;
+}
+
+.container4 .kt_link:hover {
+    color: #a10808;
+}
+
+.container4 .class2 {
+    width: 20%;
+    flex-direction: column;
+    float: right
+}
+
+.container4 .class3 {
+    flex-direction: column;
+    width: 20%;
+}
+
+.container4 .class4 {
+    width: 20%;
+}
+
+.class5 {
+    display: flex;
+    margin-top: 13px;
+    width: 30%;
+}
+
+.class5 p {
+    color: white;
+}
+
+.class5 .pp {
+    display: none;
+}
+
+.class5 .donl {
+    display: flex
+}
+
+.class5 button {
+    background-color: black;
+    display: flex;
+    width: 140px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.class5 .img_sosmed {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 1px;
+    border-radius: 90%
+}
+
+.container4 .nav-link {
+    text-decoration: none;
+    margin-right: 60px;
+    color: #000;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.container4 .nav-link:hover {
+    color: #a10808;
+}
+
+.container5 {
+    display: flex;
+    margin-left: 20px;
+}
+
+.container5 a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 15px;
+    color: rgb(151, 10, 10);
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media (max-width: 756px) {
+    .container1 .logo {
+        flex-direction: row
+    }
+
+    .container1 .kanan p {
+        display: none;
+    }
+
+    .container2 {
+        display: none;
+    }
+
+    .container3 {
+        display: none;
+    }
+
+    .container4 .class1 {
+        display: none;
+    }
+
+    .container4 .class2 {
+        display: none;
+    }
+
+    .container4 .class3 {
+        display: none;
+    }
+
+    .container4 .class4 {
+        display: none;
+    }
+
+    .container5 {
+        display: flex;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+
+}
