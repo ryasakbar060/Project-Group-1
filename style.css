@@ -236,7 +236,6 @@
     line-height: 25px;
 }
 
-
 .container4 .nav-link:hover {
     color: #a10808;
 }
@@ -259,8 +258,13 @@
 }
 
 @media (max-width: 756px) {
-    .container1 .logo {
-        flex-direction: row
+    .container1 {
+        flex-direction: row;
+    }
+
+    .container1 .img_sosmed {
+        width: 40px;
+        height: 20px;
     }
 
     .container1 .kanan p {
@@ -296,6 +300,7 @@
         margin-left: 20px;
         text-align: center;
     }
+
 
 
 }
