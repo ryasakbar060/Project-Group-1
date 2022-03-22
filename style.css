@@ -1,0 +1,232 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 8000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.second-section {
+  /* border: 1px solid black; */
+  padding-top: 50px;
+}
+.container {
+  /* border: 1px solid black; */
+  margin: 0em 4em;
+  height: 89vh;
+}
+.flash {
+  display: flex;
+}
+.box-desc {
+  width: 32vw;
+  padding-top: 50px;
+}
+.logo-flash {
+  display: flex;
+}
+.logo-flash img {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px;
+  margin-right: 20px;
+}
+.title-flash {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top: 8px;
+  font-size: 28px;
+}
+.waktu-flash {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgb(155, 155, 155);
+}
+.discon-flash {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+.button-download p {
+  font-size: 16px;
+  width: 200px;
+  margin: 5px 0px;
+  /* line-height: 8px; */
+}
+.button-download span {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 80px;
+  line-height: 8px;
+}
+.button-download button {
+  height: 6vh;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: #e31e52;
+  background-color: #e31e52;
+  padding: 10px;
+  margin-top: 5px;
+}
+.button-download button:hover {
+  height: 6vh;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: #ac0531;
+  background-color: #ac0531;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.box-card {
+  overflow: hidden;
+}
+.box-card .see-now {
+  text-decoration: none;
+  margin-left: 89%;
+}
+.box-card .see-now:hover {
+  text-decoration: underline;
+}
+.card-item {
+  /* border: 1px solid black; */
+  margin-top: 17px;
+  width: 100%;
+  height: 82%;
+  /* margin: 0px 5px; */
+  display: grid;
+  /* height: 300px; */
+  grid-template-columns: auto auto auto auto auto;
+  gap: 25px;
+  overflow-x: scroll;
+  padding: 0px 0px;
+}
+.card-item div {
+  border: 1px solid #d0d0d0;
+  padding: 1px;
+  text-align: justify;
+  width: 200px;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+}
+.card-item img {
+  width: 200px;
+}
+.card-item .harga {
+  text-decoration: line-through;
+  color: rgb(155, 155, 155);
+}
+.card-item .persen {
+  color: red;
+}
+.card-item .star {
+  font-size: 25px;
+  text-decoration: none;
+  cursor: context-menu;
+  color: rgb(228, 208, 32);
+}
+.card-item .rate {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+}
+.card-item .rate:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  color: rgb(155, 155, 155);
+}
+
+/* Slide 2 */
+
+@media (max-width: 576px) {
+  /* Slide 1 */
+  .second-section {
+    /* border: 1px solid black; */
+    background-color: #e93b6b !important;
+    padding-top: 10px;
+    height: 110vh;
+  }
+  .container {
+    /* border: 1px solid black; */
+    margin: 0em 1em;
+    height: 93%;
+  }
+  .flash {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-desc {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-top: 0px;
+  }
+  .title-flash {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 28px;
+    color: white;
+  }
+  .logo-flash img {
+    display: none;
+  }
+  .waktu-flash {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    width: 170px;
+    margin-top: -10px;
+    padding: 0px 10px;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid rgb(226, 195, 17);
+    background-color: rgb(226, 195, 17);
+  }
+  .discon-flash {
+    display: none;
+  }
+  .button-download {
+    display: none;
+  }
+  .box-card {
+    position: relative;
+    overflow: hidden;
+  }
+  .box-card .see-now {
+    position: absolute;
+    right: 0px;
+    width: 91px;
+    text-decoration: none;
+    color: white;
+  }
+  .card-item {
+    /* border: 5px solid black; */
+    margin-top: 30px;
+    /* width: 60%; */
+    height: 180vh;
+    /* margin: 0px 5px; */
+    display: grid;
+    /* height: 300px; */
+    grid-template-columns: auto auto auto auto auto;
+    gap: 5px;
+    overflow-x: scroll;
+    padding: 0px 0px;
+  }
+  .card-item img {
+    width: 200px;
+  }
+  .discon-card {
+    height: 80vh;
+  }
+
+  /* Slide 2 */
+}
