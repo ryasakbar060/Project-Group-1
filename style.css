@@ -193,6 +193,7 @@
     display: flex;
     margin-top: 13px;
     width: 30%;
+    flex-direction: column;
 }
 
 .class5 p {
@@ -204,25 +205,35 @@
 }
 
 .class5 .donl {
-    display: flex
+    display: flex;
 }
 
-.class5 button {
-    background-color: black;
+.class5 .donl .kiri {
     display: flex;
-    width: 140px;
-    height: 60px;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 30px;
     cursor: pointer;
 }
 
-.class5 .img_sosmed {
-    width: 30px;
-    height: 30px;
+.class5 .donl .kanan {
+    display: flex;
+    border-radius: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.class5 .img_gplay {
+    width: 100px;
+    height: 40px;
     margin-top: 10px;
     margin-left: 1px;
-    border-radius: 90%
+}
+
+.class5 .img_sosmed {
+    width: 100px;
+    height: 38px;
+    margin-top: 11px;
+    margin-left: 1px;
 }
 
 .container4 .nav-link {
