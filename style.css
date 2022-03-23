@@ -9,7 +9,7 @@ a {
     color: black;
 }
 
-.container {
+.kontainer {
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -64,4 +64,32 @@ a {
 /* BANNER BESAR */
 #banner-besar img {
     max-width: 1665px;
+}
+
+@media (max-width: 1220px) {
+    body {
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    #header2 {
+        padding: 0px;
+    }
+
+    #menu {
+        flex-wrap: wrap;
+    }
+
+    .menu-item {
+        padding: 5px;
+    }
+
+    #banner-kecil {
+        display: none;
+    }
+
+    #banner-besar img {
+        position: relative;
+        max-width: 100%;
+    }
 }
