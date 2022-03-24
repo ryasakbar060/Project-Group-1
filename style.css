@@ -4,6 +4,8 @@ body {
   height: 8000px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* flash deal */
 .second-section {
   /* border: 1px solid black; */
   padding-top: 50px;
@@ -146,7 +148,7 @@ body {
   color: rgb(155, 155, 155);
 }
 
-/* Slide 2 */
+/* Keliling mall */
 .keliling-mall {
   /* border: 1px solid black; */
   padding-top: 20px;
@@ -250,7 +252,7 @@ body {
   text-align: center;
 }
 
-/* slide 3 */
+/* lagi populer */
 .lagi-populer {
   /* border: 1px solid black; */
   padding: 0em 3.8em;
@@ -285,7 +287,7 @@ body {
 }
 
 @media (max-width: 576px) {
-  /* Slide 1 */
+  /* flash deal */
   .second-section {
     /* border: 1px solid black; */
     background-color: #e93b6b !important;
@@ -362,7 +364,7 @@ body {
     height: 80vh;
   }
 
-  /* Slide 2 */
+  /* keliling mall */
   .keliling-mall {
     /* border: 1px solid black; */
     overflow: hidden;
@@ -430,7 +432,7 @@ body {
     display: none;
   }
 
-  /* Slide 3 */
+  /* lagi populer */
   .lagi-populer {
     display: none;
   }
