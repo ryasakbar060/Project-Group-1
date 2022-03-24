@@ -11,7 +11,7 @@ body {
 .container {
   /* border: 1px solid black; */
   margin: 0em 4em;
-  height: 89vh;
+  height: 88vh;
 }
 .flash {
   display: flex;
@@ -50,8 +50,9 @@ body {
   margin-bottom: 35px;
 }
 .button-download p {
+  /* border: 1px solid black; */
   font-size: 16px;
-  width: 200px;
+  width: 99%;
   margin: 5px 0px;
   /* line-height: 8px; */
 }
@@ -69,9 +70,9 @@ body {
   font-size: 16px;
   font-weight: bold;
   border: #e31e52;
-  background-color: #e31e52;
   padding: 10px;
   margin-top: 5px;
+  background-color: #e31e52;
 }
 .button-download button:hover {
   height: 6vh;
@@ -146,6 +147,142 @@ body {
 }
 
 /* Slide 2 */
+.keliling-mall {
+  /* border: 1px solid black; */
+  padding-top: 20px;
+  height: 90vh;
+  overflow: hidden;
+}
+.title-mall {
+  /* border: 1px solid black; */
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  padding: 0em 3.8em;
+}
+.title-mall {
+  /* border: 1px solid black; */
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 3.8em;
+}
+.title-mall p {
+  /* border: 1px solid black; */
+  padding-top: 20px;
+  font-weight: bold;
+}
+.title-mall-responsive {
+  display: none;
+}
+.mall {
+  display: flex;
+  overflow: hidden;
+}
+.buka-mall {
+  border: 1px solid rgb(199, 198, 198);
+  background-image: url(img/shop.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 26%;
+  text-align: center;
+  color: white;
+}
+.buka-mall h1 {
+  margin-top: 6em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buka-mall p {
+  width: 100%;
+}
+.tombol-mall {
+  height: 6vh;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: #e31e52;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #e31e52;
+}
+.tombol-mall:hover {
+  height: 6vh;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: #ac0531;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #ac0531;
+}
+.slide-barang {
+  display: flex;
+}
+.card-barang {
+  border: 1px solid rgb(199, 198, 198);
+  position: relative;
+  width: 25%;
+  height: 76.5vh;
+  overflow: hidden;
+}
+.img-card-top {
+  width: 220px;
+  height: 271px;
+}
+.img-card-center {
+  /* border: 1px solid rgb(0, 0, 0); */
+  display: block;
+  width: 190px;
+  position: absolute;
+  top: 10em;
+  left: 1em;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+}
+.card-barang h2 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 120px;
+  text-align: center;
+}
+
+/* slide 3 */
+.lagi-populer {
+  /* border: 1px solid black; */
+  padding: 0em 3.8em;
+  margin-top: 70px;
+}
+.populer {
+  /* border: 1px solid black; */
+  height: 28vh;
+  margin: 0px 0px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.item-populer {
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding-bottom: 0px;
+  width: 15%;
+  height: 100%;
+}
+.item-populer:hover {
+  border: 1px solid rgb(75, 78, 245);
+  background-color: #f5f5f5;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 15%;
+}
+.item-populer img {
+  width: 100px;
+  padding-top: 10px;
+}
 
 @media (max-width: 576px) {
   /* Slide 1 */
@@ -211,11 +348,8 @@ body {
   .card-item {
     /* border: 5px solid black; */
     margin-top: 30px;
-    /* width: 60%; */
     height: 180vh;
-    /* margin: 0px 5px; */
     display: grid;
-    /* height: 300px; */
     grid-template-columns: auto auto auto auto auto;
     gap: 5px;
     overflow-x: scroll;
@@ -229,4 +363,75 @@ body {
   }
 
   /* Slide 2 */
+  .keliling-mall {
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 99.6%;
+  }
+  .title-mall {
+    display: none;
+  }
+  .title-mall-responsive {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 1em;
+  }
+  .title-mall-responsive h1 {
+    /* border: 1px solid black; */
+    font-size: 16px;
+  }
+  .title-mall-responsive a {
+    /* border: 1px solid black; */
+    text-decoration: none;
+    font-size: 14px;
+    color: #d0d0d0;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  .mall {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+  .buka-mall {
+    display: none;
+  }
+  .slide-barang {
+    display: flex;
+  }
+  .card-barang {
+    /* border: 1px solid rgb(233, 9, 9); */
+    position: relative;
+    box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+    width: 35%;
+    height: 40vh;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .img-card-top {
+    width: 138px;
+    height: 100px;
+    padding-bottom: 90px;
+  }
+  .img-card-center {
+    display: block;
+    width: 110px;
+    position: absolute;
+    top: 4em;
+    left: 6px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+  }
+  .card-barang h2 {
+    display: none;
+  }
+
+  /* Slide 3 */
+  .lagi-populer {
+    display: none;
+  }
 }
