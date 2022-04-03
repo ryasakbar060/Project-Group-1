@@ -52,6 +52,29 @@ a.tbl:hover {
   padding-bottom: 25px;
 }
 
+.kontainer::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.card-content {
+  width: 200px;
+  border: 1px solid rgb(224, 219, 219);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card-content:hover {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card-content p,
+h3 {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
 #header2 {
   padding: 50px;
 }
@@ -85,6 +108,10 @@ a.tbl:hover {
 
 .kartu {
   display: flex;
+}
+
+.star p {
+  padding-left: 10px;
   text-align: center;
   width: fit-content;
 }
@@ -136,7 +163,7 @@ a.tbl:hover {
   margin-right: 20px;
 }
 .title-flash {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin-top: 8px;
   font-size: 28px;
@@ -258,13 +285,13 @@ a.tbl:hover {
 }
 .title-mall {
   /* border: 1px solid black; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   padding: 0em 3.8em;
 }
 .title-mall {
   /* border: 1px solid black; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: space-between;
   padding: 0em 3.8em;
@@ -287,6 +314,7 @@ a.tbl:hover {
   background-position: center;
   background-size: cover;
   width: 26%;
+  height: 87%;
   text-align: center;
   color: white;
 }
@@ -500,7 +528,7 @@ h3 {
   }
 
   .title-flash {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     margin-top: 8px;
     font-size: 28px;
@@ -718,7 +746,7 @@ h3 {
 /*footer*/
 #footer {
   width: 100%;
-  margin-top: 900px;
+  margin-top: 50px;
 }
 
 .container1 {
@@ -731,7 +759,6 @@ h3 {
 }
 
 .container1 .kiri p {
-  margin-left: 20px;
   margin-bottom: 10px;
 }
 
@@ -747,7 +774,6 @@ h3 {
   width: 50px;
   height: 30px;
   margin-right: 16px;
-  margin-left: 20px;
   margin-bottom: 10px;
 }
 
@@ -756,7 +782,6 @@ h3 {
 }
 
 .container2 p {
-  margin-left: 20px;
   margin-bottom: 20px;
 }
 
@@ -768,20 +793,17 @@ h3 {
   width: 50px;
   height: 30px;
   margin-right: 16px;
-  margin-left: 20px;
   margin-bottom: 10px;
 }
 
 .container3 {
   margin-top: 50px;
-  margin-left: 20px;
   display: flex;
 }
 
 .container3 .kiri {
   display: flex;
   width: 70%;
-  margin-left: 20px;
 }
 
 .container3 .kiri .img_1 {
@@ -829,7 +851,7 @@ h3 {
 .container4 .class1 .box {
   border-style: groove;
   margin-top: 12px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   width: 70%;
   height: 30px;
 }
@@ -931,11 +953,11 @@ h3 {
 
 .container5 {
   display: flex;
-  margin-left: 50px;
 }
 
 .container5 .con5 {
   display: flex;
+  padding-top: 17.5px;
 }
 
 .container5 a {
@@ -946,7 +968,7 @@ h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 20px;
+  /* line-height: 20px; */
 }
 
 @media (max-width: 576px) {
@@ -976,7 +998,7 @@ h3 {
   }
 
   .title-flash {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     margin-top: 8px;
     font-size: 28px;
@@ -1143,5 +1165,33 @@ h3 {
 
   .container5 .con5 {
     justify-content: center;
+  }
+}
+
+@media (max-width: 1220px) {
+  body {
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
+  #header2 {
+    padding: 0px;
+  }
+
+  #menu {
+    flex-wrap: wrap;
+  }
+
+  .menu-item {
+    padding: 5px;
+  }
+
+  #banner-ko-kecil {
+    display: none;
+  }
+
+  #banner-besar img {
+    position: relative;
+    max-width: 100%;
   }
 }
